@@ -1,0 +1,138 @@
+.form-container {
+  margin: 200px auto;
+  width: 1000px;
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+  position: relative;
+  border-radius: 10px;
+  height: 400px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.close-btn {
+  position: absolute;
+  top: 2%;
+  right: 3%;
+  font-size: 1.5rem;
+  z-index: 1;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+
+/* .form-content-left {
+  background: linear-gradient(
+    90deg,
+    rgb(39, 176, 255) 0%,
+    rgb(0, 232, 236) 100%
+  );
+  border-radius: 10px 0 0 10px;
+  position: relative;
+} */
+
+.form-success {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 80px;
+  color: rgb(0, 0, 0);
+}
+
+.form-content-right {
+  border-radius: 0 10px 10px 0;
+  position: relative;
+  background: linear-gradient(90deg, rgb(40, 40, 40) 0%, rgb(17, 17, 17) 100%);
+}
+
+.form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 100px;
+}
+
+.form h1 {
+  font-size: 1rem;
+  text-align: start;
+  width: 80%;
+  margin-bottom: 1rem;
+  color: rgb(0, 0, 0);
+}
+
+.form-inputs {
+  margin-bottom: 0.5rem;
+  width: 70%;
+  box-shadow: #595959;
+}
+
+.form-inputs {
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+  color: #f00e0e;
+}
+
+.form-label {
+  display: inline-block;
+  font-size: 1.2rem;
+  margin-bottom: 6px;
+  color: rgb(0, 0, 0);
+}
+
+.form-input {
+  display: block;
+  padding-left: 17px;
+  outline: none;
+  border-radius: 2px;
+  height: 40px;
+  width: 100%;
+  border: none;
+  border: 0.001rem solid rgb(0, 0, 0);
+  font-family: "Teko", sans-serif;
+  font-size: 23px;
+  justify-content: center;
+  border-radius: 6px 6px 6px 6px;
+}
+
+.form-input::placeholder {
+  color: #595959;
+  font-size: 14px;
+}
+
+.form-input-btn {
+  display: block;
+  text-align: center;
+  margin: 2rem auto;
+  border-radius: 4px;
+  width: 50%;
+  text-decoration: none;
+  font-size: 1.5rem;
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+  padding: 14px 20px;
+  border: 1px solid rgb(0, 0, 0);
+  transition: all 0.5s ease-in-out;
+}
+
+.form-input-btn:hover {
+  cursor: pointer;
+  color: white;
+  background: rgb(0, 0, 0);
+  transition: all 0.5s ease-in-out;
+}
+
+.form-input-login {
+  font-size: 1.2rem;
+  color: rgb(0, 0, 0);
+  width: 80%;
+  text-align: center;
+}
+
+.form-input-login a {
+  text-decoration: none;
+  color: #00c3ff;
+  font-weight: 600;
+}
