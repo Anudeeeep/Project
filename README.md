@@ -1,6 +1,6 @@
 # AT-RAVEL
 
- This website books ticket to adeventure sports.
+ This website books ticket to adventure sports.
  
  This website includes pages to
 
@@ -9,3 +9,5 @@
  - Services
  - Sign-Up
  - Sign-in
+ 
+New ideas for improvement
