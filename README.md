@@ -5,9 +5,9 @@
  This website includes pages to
 
  - Home
- - About Us
+ - About us
  - Services
- - Sign-Up
+ - Sign-up
  - Sign-in
  
 New ideas for improvement
